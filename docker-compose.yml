@@ -1,0 +1,8 @@
+version: '2'
+services:
+  swagger:
+    image: swaggerapi/swagger-editor
+    network_mode: bridge
+    environment:
+      - VIRTUAL_HOST=swagger.docker
+      - VIRTUAL_PORT=80

@@ -1,7 +1,5 @@
 # swagger_docker
+Pequeno script para utilização em paralelo com a [workstation](https://github.com/conceptho/workstation)
 
-docker-compose up -d
-
-## Link util
-faz uso do Workstation
-- 'workstation':[link](https://github.com/conceptho/workstation)
+## Para rodar
+- docker-compose up -d
