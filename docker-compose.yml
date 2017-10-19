@@ -1,8 +1,10 @@
 version: '2'
 services:
   swagger:
-    image: swaggerapi/swagger-editor
+    image: swaggerapi/swagger-ui
     network_mode: bridge
     environment:
-      - VIRTUAL_HOST=swagger.docker
+      - VIRTUAL_HOST=swagger-ui.docker
       - VIRTUAL_PORT=80
+    volumes:
+      - ./file:/usr/share/nginx/html/files
